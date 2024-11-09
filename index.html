@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>热爱技术的小牛</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/my.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="shotcut icon" href="images/logo.jpg" />
+
+
+	</head>
+	<body>
+		<header>
+			<!-- <img src="images/logo.jpg" alt="My Logo" id="my-logo"> -->
+			<!-- 其他内容 -->
+		</header>
+
+		<div class="reveal">
+	
+			<div class="slides">
+				<section data-transition="zoom">Slide 1</section>
+				<section data-transition="fade">Slide 2</section>
+				<section data-transition="convex">Slide 3</section>
+				<section >Slide 4</section>
+				<section data-markdown="mds/人工智能自动化测试.ppt.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:"></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

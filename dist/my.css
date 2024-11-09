@@ -1,0 +1,49 @@
+#my-logo {
+    width:40px;
+    height: 40px;
+    margin-top: 0px;
+    /* margin: 10px; */
+}
+
+/* 让sologo文本和my-logo在同一行并且sologo靠在my-logo旁边 */
+
+#my-logo-text {
+    width:120px;
+    height: 20px;
+    margin-top: 10px;
+    /* margin: 10px; */
+    /* float: right; */
+    /* margin-right: 10px; */
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: chocolate;
+    font-weight: 1000;
+}
+
+#section-1{
+    font-size: large;
+}
+
+#section-my-logo {
+    width:40px;
+    height: 40px;
+    margin-top: 0px;
+    /* margin: 10px; */
+}
+
+/* 让sologo文本和my-logo在同一行并且sologo靠在my-logo旁边 */
+
+#section-my-logo-text {
+    width:140px;
+    height: 20px;
+    margin-top: 10px;
+    /* margin: 10px; */
+    /* float: right; */
+    /* margin-right: 10px; */
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: chocolate;
+    font-weight: 1000;
+}
